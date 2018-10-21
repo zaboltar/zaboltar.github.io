@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f14be4c64c73a74fb33d36a00dfdcce, type: 3}
+  m_Name: 00Death
+  m_EditorClassIdentifier: 
+  storyText: "De alg\xFAn modo, has tomado una decisi\xF3n que no encaja con los valores
+    del mundo al que entraste. Como resultado de tu imprudencia has muerto.\n\n1.
+    Reiniciar Aventura\n2. Regresar al Men\xFA"
+  nextStates:
+  - {fileID: 11400000, guid: bba929c44e521da4cb1b931c43201577, type: 2}
+  - {fileID: 11400000, guid: b5c79400461d1e24ab96676f025304b0, type: 2}

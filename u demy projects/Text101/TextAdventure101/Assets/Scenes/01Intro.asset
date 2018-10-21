@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f14be4c64c73a74fb33d36a00dfdcce, type: 3}
+  m_Name: 01Intro
+  m_EditorClassIdentifier: 
+  storyText: "Bienvenido a Una Aventura Leibnizeana.\nUn teclado es estrictamente
+    necesario. \n\nPresiona Q para salir en cualquier momento.\n\nPresiona 1 para
+    comenzar.\n\n1."
+  nextStates:
+  - {fileID: 11400000, guid: bba929c44e521da4cb1b931c43201577, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f14be4c64c73a74fb33d36a00dfdcce, type: 3}
+  m_Name: room1
+  m_EditorClassIdentifier: 
+  storyText: "Te encuentras en una celda fr\xEDa y h\xFAmeda. La poca luz te deja
+    entrever cuerpos innertes a tu lado. Una rendija se abre y una voz te pregunta
+    si est\xE1s listo para cumplir con tu misi\xF3n.\n\n1. Listo!\n2. Dame cinco minutos
+    m\xE1s."
+  nextStates:
+  - {fileID: 11400000, guid: 7fa579dd7048f3948b6b126264480872, type: 2}
+  - {fileID: 11400000, guid: 3f2d8f3d2ed000c458570ac63d4debeb, type: 2}
